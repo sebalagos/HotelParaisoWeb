@@ -1,0 +1,57 @@
+{
+  "habitaciones": [
+    {
+      "id": "1",
+      "nombre": "Habitación Estándar",
+      "precio": "$45.000",
+      "capacidad": "2 personas",
+      "imagen": "/imagenes/estrandar.jpg",
+      "oferta": false
+    },
+    {
+      "id": "2",
+      "nombre": "Habitación Suite",
+      "precio": "$92.000",
+      "capacidad": "2 personas",
+      "imagen": "/imagenes/suite.jpg",
+      "oferta": true
+    },
+    {
+      "id": "3",
+      "nombre": "Habitación Familiar",
+      "precio": "$69.000",
+      "capacidad": "4 personas",
+      "imagen": "/imagenes/familiar.jpg",
+      "oferta": true
+    },
+    {
+      "id": "4",
+      "nombre": "Suite Presidencial",
+      "precio": "$320.000",
+      "capacidad": "2 personas",
+      "imagen": "/imagenes/presidencial.jpg",
+      "oferta": false
+    }
+  ],
+  "reservas": [
+    {
+      "nombre": "seba lagos",
+      "run": "22156449-9",
+      "llegada": "2026-09-08",
+      "salida": "2026-11-09",
+      "personas": "2",
+      "tipo": "Habitación Estándar",
+      "id": "63TN_tVNVTo"
+    },
+    {
+      "nombre": "seba lagos",
+      "run": "22156449-9",
+      "llegada": "2026-09-08",
+      "salida": "2026-11-09",
+      "personas": "2",
+      "tipo": "Habitación Familiar",
+      "id": "uz7E4Jq3TUs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "hotel-paraiso",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "api": "json-server --watch -p 3001 db.json",
+    "test": "karma start karma.conf.js",
+    "test:cov": "karma start karma.conf.js --coverage"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "bootstrap": "5.3.8",
+    "@popperjs/core": "^2.11.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "json-server": "^1.0.0-beta.15",
+    "karma": "^6.4.4",
+    "karma-jasmine": "^5.1.0",
+    "jasmine-core": "^4.6.1",
+    "@types/jasmine": "^4.6.5",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-webpack": "^5.0.1",
+    "karma-coverage": "^2.2.1",
+    "webpack": "^5.95.0",
+    "babel-loader": "^9.2.1",
+    "@babel/core": "^7.25.0",
+    "@babel/preset-env": "^7.25.0",
+    "@babel/preset-react": "^7.25.0",
+    "@babel/preset-typescript": "^7.25.0",
+    "babel-plugin-istanbul": "^7.0.0"
+  }
+}
